@@ -2,14 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Main">
-      <UniqueIdentifier>{8d134600-139e-4fe6-990c-5e549f6b3977}</UniqueIdentifier>
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="PCH">
-      <UniqueIdentifier>{f0fba2d2-9d70-483b-be25-a53d0c18dd1e}</UniqueIdentifier>
+      <UniqueIdentifier>{78691d6f-e9e2-44d2-b02c-6d33cbc3adc5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NetEngine.cpp">
+    <ClCompile Include="DummyClient.cpp">
       <Filter>Main</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
