@@ -1,9 +1,10 @@
 #include "pch.h"
 #include "DeadLockProfiler.h"
 
+thread_local std::stack<int32> DeadLockProfiler::mLockStack;
+
 DeadLockProfiler::DeadLockProfiler()
 {
-	LockGuard<Mutex> guard(mLock);
 }
 
 DeadLockProfiler::~DeadLockProfiler()

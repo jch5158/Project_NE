@@ -6,12 +6,12 @@ PlayerManager GPlayerManager;
 
 void PlayerManager::PlayerThenAccount()
 {
-    WRITE_LOCK;
+    READ_LOCK;
 
     GAccountManager.Lock();
 }
 
 void PlayerManager::Lock()
 {
-    WRITE_LOCK;
+    READ_LOCK;
 }

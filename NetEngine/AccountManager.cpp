@@ -6,12 +6,12 @@ AccountManager GAccountManager;
 
 void AccountManager::AccountThenPlayer()
 {
-    WRITE_LOCK;
+    READ_LOCK;
 
     GPlayerManager.Lock();
 }
 
 void AccountManager::Lock()
 {
-    WRITE_LOCK;
+    READ_LOCK;
 }
