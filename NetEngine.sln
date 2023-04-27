@@ -4,10 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetEngine", "NetEngine\NetEngine.vcxproj", "{0775863D-D45F-41FA-BF37-3F59A996EF40}"
+	ProjectSection(ProjectDependencies) = postProject
+		{50DB8B7A-61EE-4D81-A1C5-767AA9E1556A} = {50DB8B7A-61EE-4D81-A1C5-767AA9E1556A}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetCore", "NetCore\NetCore.vcxproj", "{50DB8B7A-61EE-4D81-A1C5-767AA9E1556A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DummyClient", "DummyClient\DummyClient.vcxproj", "{691E6F84-655E-4C48-A133-AFF58FADFB3B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{50DB8B7A-61EE-4D81-A1C5-767AA9E1556A} = {50DB8B7A-61EE-4D81-A1C5-767AA9E1556A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

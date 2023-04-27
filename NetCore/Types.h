@@ -9,3 +9,9 @@ using uint8 = unsigned __int8;
 using uint16 = unsigned __int16;
 using uint32 = unsigned __int32;
 using uint64 = unsigned __int64;
+
+using Mutex = std::mutex;
+template<typename T>
+using LockGuard = std::lock_guard<T>;
+template<typename T>
+using UniqueLock = std::unique_lock<T>;
